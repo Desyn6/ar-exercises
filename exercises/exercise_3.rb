@@ -7,7 +7,7 @@ puts "----------"
 
 # Your code goes here ...
 
-@store3 = Store.where(id: 3)
+@store3 = Store.find(3)
 
 Store.destroy(3)
 
